@@ -197,10 +197,10 @@
             // | CTRL | WIN | ALT |HENKAN|SPACE|MUHENKAN|       | BS | ENT |      　　　　       | DEL |           
 
             bindings = <
-&kp Q       &kp W         &kp E  &kp R             &kp T                                        &kp Y          &kp U      &kp I      &kp O    &kp P
-&kp A       &kp S         &kp D  &kp F             &kp G        &kp LS(LG(S))    &kp B          &kp H          &kp J      &kp K      &kp L    &kp SQT
-&kp LCTRL   &kp Z         &kp X  &lt 6 C           &lt 5 V      &lt 4 B          &kp SEMICOLON  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
-&kp LSHIFT  &kp LEFT_ALT  &mo 1  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 SPACE                     &kp BACKSPACE  &kp ENTER                                 &kp DEL
+&kp Q       &kp W         &kp E  &kp R         &kp T                                        &kp Y          &kp U      &kp I      &kp O    &kp P
+&kp A       &kp S         &kp D  &kp F         &kp G        &kp BACKSLASH    &kp B          &kp H          &kp J      &kp K      &kp L    &kp SQT
+&kp LCTRL   &kp Z         &kp X  &lt 6 C       &lt 5 V      &lt 4 B          &kp SEMICOLON  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp LSHIFT  &kp LEFT_ALT  &mo 1  &lt 3 ESCAPE  &lt 2 SPACE  &lt 1 SPACE                     &kp BACKSPACE  &kp ENTER                                 &mo 1
             >;
 
             sensor-bindings =
@@ -216,10 +216,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5                                          &kp NUMBER_6   &kp N7          &kp N8        &kp N9     &kp N0
-&kp TAB         &trans        &trans        &trans            &trans       &trans                &trans       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &moE
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &kp JP_KANA    &trans          &moF          &moG       &moH
-&mt LCTL ESC    &kp LALT      &trans        &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                                        &kp DEL
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                          &kp NUMBER_6   &kp N7          &kp N8          &kp N9           &kp N0
+&kp TAB         &trans        &trans        &trans        &trans       &trans                &trans       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &moE
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans       &trans                &kp JP_EISU  &kp JP_KANA    &trans          &kp LEFT_BRACE  &kp RIGHT_BRACE  &moH
+&kp ESCAPE      &kp LALT      &trans        &lt 3 SPACE   &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                                                &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
